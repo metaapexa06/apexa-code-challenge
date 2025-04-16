@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct CountryAppApp: App {
+    @StateObject private var viewModel = CountryViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(viewModel)
         }
     }
 }
