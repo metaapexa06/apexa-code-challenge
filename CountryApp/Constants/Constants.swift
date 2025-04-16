@@ -45,7 +45,6 @@ struct TextConstants {
 
 /// Contains image asset names used in the app.
 struct ImageConstants {
-    /// Navigation header title image name (if applicable).
     static let iconCheckmark = "checkmark.circle.fill"
     static let iconCircle = "plus.circle"
     static let iconBuilding = "building.2.crop.circle"
